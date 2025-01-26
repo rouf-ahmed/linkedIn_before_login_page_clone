@@ -1,0 +1,996 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+    color: black;
+    box-sizing: border-box;
+
+
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header{
+    width: 75%;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.logo{
+    width: 600px;
+   
+}
+
+.logo img{
+    max-width: 100px;
+   
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-right: 15px;
+    
+
+
+}
+
+
+
+.icons::after{
+    content:"";
+    border-right: 1px solid #b2b2b2;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+.icon{
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-right: 2px;
+  
+}
+
+.icon i {
+    font-size: 25px;
+
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    
+}
+
+
+    
+
+
+.btns button{
+    padding: 10px 15px;
+    margin: 20px 5px; 
+    border: 1px solid #0a66c2;
+    border-radius: 22px;
+    font-weight: 700;
+
+}
+
+p{
+
+    color:#666;
+    /* margin: 30px; */
+    font-weight:900;
+   
+    
+   
+}
+
+#btn1{
+    color: #0a66c2;
+    background-color:white ;
+    padding: 15px;
+     margin-right: 5px;
+    margin-inline-start: 0%;
+    margin-left: 12px; 
+  
+}
+
+
+/* section */
+
+ #banner {
+     display: flex; 
+    justify-content: space-around;
+     width: 100%; 
+     margin: 0 auto; 
+}
+
+#banner div{
+  
+     width: 80%; 
+}
+
+
+
+#banner-img{
+    background-image: url(assets/images/baner-img.svg);
+    height: 590px;
+    background-repeat: no-repeat;
+    background-size:100% ; 
+    
+    /* width: 45%; */
+    
+}
+
+  #banner > #info {
+    padding-right: 0 50px 0 150px;
+    margin: 30px 0 0 160px;
+    /* width: 50%; */
+} 
+
+
+#banner > #info > p{
+
+    font-size: 48px;
+    font-weight: 500;
+
+}
+
+ .banner-start{
+    display: block;
+    width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    margin:20px  ;
+  }
+
+  .banner-start:hover{
+    background-color: #dddddd6c;
+  }
+
+  div#banner > div#info > span {
+    font-size: 13px;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin: 0 0 0 25px;
+
+  }
+
+  div#banner > div#info > span > a{
+    color: #0a66c2;
+    font-weight: 530; 
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+   
+  }
+
+  
+  div#banner > div#info > span > a:hover{
+    text-decoration: underline;
+
+  }
+
+  div#banner > div#info > span > p{
+    font-size: 18px;
+  }
+
+  div#banner > div#info > span > p {
+    color: black;
+    font-weight: lighter;
+  }
+
+  div#banner > div#info > span > p > a{
+    color: #0a66c2;
+    text-decoration: none;
+    font-weight:lighter;
+
+  }
+
+  div#banner > div#info > span > p > a:hover{
+    text-decoration: underline;
+  }
+
+  /* my row */
+
+   section > #my-row  * {
+    background-color: rgba(196, 196, 196, 0.584)
+  }
+
+  section > #my-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(84, 54, 2, 0.064)
+   
+  }
+
+  section > #my-row > div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; 
+    margin: 0 auto auto 180px;
+    padding: 50px 0;
+    background-color: transparent;
+    
+  }
+
+  section > #my-row > div > div{
+    width: 50%;
+    background-color: transparent;
+
+  }
+
+  section > #my-row > div > div > h2{
+    background-color: transparent;
+    font-size: 35px;
+  }
+
+  section > #my-row > div > div > p {
+    padding-top: 14px;
+    background-color: transparent;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5;
+    font-size: 23px;
+    margin: 0 20px auto auto;
+  }
+
+
+  section > #my-row > div > div > button{
+    background-color:transparent;
+    padding: 15px ;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    font-weight: 450;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 8px;
+    width: fit-content;
+    margin-bottom: 12px;
+  }
+
+  section > #my-row > div > div > button:hover{
+    background-color: #6666661f;
+  }
+
+  section > #my-row > div > div > button > a {
+    text-decoration: none;
+    color: #0a66c2;
+    background-color: transparent;
+   
+  }
+  section > #my-row > div > div > button.show-all{
+   border-color: blue;
+   font-weight: 900;
+
+  }
+  section > #my-row > div > div > button.show-all:hover{
+    background-color:#0a66c20a;
+  }
+
+
+  
+/* my-row1 */
+
+section > #my-row1  * {
+  background-color: rgba(196, 196, 196, 0.584)
+}
+
+section > #my-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+section > #my-row1 > div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; 
+  margin: 0 auto auto 180px;
+  padding: 50px 0;
+  background-color: transparent;
+  
+}
+
+section > #my-row1 > div > div{
+  width: 50%;
+  background-color: transparent;
+
+}
+
+section > #my-row1 > div > div > h2{
+  background-color: transparent;
+  font-size: 35px;
+}
+
+
+section > #my-row1 > div > div > button{
+  background-color:transparent;
+  padding: 15px ;
+  border: 1.5px solid black;
+  border-radius: 30px;
+  font-weight: 450;
+  font-size: 18px;
+  align-items: center;
+  margin-right: 8px;
+  width: fit-content;
+  margin-bottom: 12px;
+}
+
+section > #my-row1 > div > div > button:hover{
+  background-color: #6666661f;
+}
+
+section > #my-row1 > div > div > button > a {
+  text-decoration: none;
+  background-color: transparent;
+ 
+}
+section > #my-row1 > div > div > button.show-all1{
+box-sizing:content-box;
+font-weight: lighter;
+padding: 4px 20px;
+height: 30px;
+font-size: 16px;
+} 
+section > #my-row > div > div > button.show-all1:hover{
+  background-color:#0a66c20a;
+}
+
+section > #my-row1 > div > div > button.show-all1 i{
+  margin-left: 4px;
+  rotate: 90deg;
+  color: rgba(0, 0, 0, 0.715);
+  background-color: rgba(255, 255, 255, 0.46);
+  
+  font-size: 16px;
+}
+
+/* my row 2 */
+
+section > #my-row2  * {
+  background-color:rgba(84, 54, 2, 0.064) ; 
+  
+}
+
+section > #my-row2 {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+section > #my-row2 > div {
+  width: 100%; 
+}
+
+section > #my-row2 > div > div{
+  width: 100%;
+  background-color: transparent; 
+  text-align: center;
+
+}
+
+section > #my-row2 > div > div > h2{
+   background-color: transparent; 
+  font-size: 37px;
+  color: #b24020;
+  text-align: center;
+  line-height: 1.25;
+  padding-bottom: 32px;
+  margin-top: 64px;
+  font-weight: 500;
+  
+}
+
+
+
+  section > #my-row2 > div > div > button{
+    background-color:transparent;
+    color:#076dd2;
+    border:1.5px solid #0a66c2;
+    padding: 15px ;
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 4px 20px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;  
+    font-weight: 900;
+  }
+
+  /*My row 3 */
+
+  section > #my-row3 {
+    display: flex;
+    justify-content: space-between;
+   
+   
+  }
+
+  section > #my-row3 > div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; 
+    margin: 0 auto auto 180px;
+    padding: 50px 0;
+    background-color: transparent;
+    
+  }
+
+  section > #my-row3 > div > div{
+    width: 50%;
+    background-color: transparent;
+
+  }
+
+  section > #my-row3 > div > div > h2{
+    background-color: transparent;
+    font-size: 35px;
+  }
+
+  section > #my-row3 > div > div > p {
+    padding-top: 14px;
+    background-color: transparent;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5;
+    font-size: 23px;
+    margin: 0 20px auto auto;
+  }
+
+
+  section > #my-row3 > div > div > button{
+    background-color:transparent;
+    padding: 15px ;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    font-weight: 450;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 8px;
+    width: fit-content;
+    margin-bottom: 12px;
+  }
+
+  section > #my-row3 > div > div > button:hover{
+    background-color: #6666661f;
+  }
+
+  section > #my-row3 > div > div > button > a {
+    text-decoration: none;
+    color: #0a66c2;
+    background-color: transparent;
+   
+  }
+  section > #my-row3 > div > div > button.show-all2{
+   border-color: blue;
+   font-weight: 900;
+
+  }
+  section > #my-row3 > div > div > button.show-all2:hover{
+    background-color:#076dd20f;
+  }
+
+
+  /* my row4 */
+
+  section > #my-row4 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section > #my-row4 > div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; 
+    margin: 0 auto auto 180px;
+    padding: 50px 0;
+    background-color: transparent;
+  }
+
+  section > #my-row4 > div > div{
+    width: 50%;
+    background-color: transparent;
+
+  }
+
+  section > #my-row4 > div > div > h2{
+    background-color: transparent;
+    font-size: 35px;
+  }
+
+  section > #my-row4 > div > div > p {
+    padding-top: 14px;
+    background-color: transparent;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5;
+    font-size: 23px;
+    margin: 0 20px auto auto;
+  }
+
+
+  section > #my-row4 > div > div > button{
+    background-color:transparent;
+    padding: 15px ;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    font-weight: 450;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 8px;
+    width: fit-content;
+    margin-bottom: 12px;
+    margin-top: 50px;
+  }
+
+  section > #my-row4 > div > div > button:hover{
+    background-color: #6666661f;
+  }
+
+
+  /* my row5 */
+  section > #my-rows  * {
+    background-color: rgba(196, 196, 196, 0.31)
+  }
+
+  section > #my-rows {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(124, 80, 4, 0.022)
+   
+  }
+
+  section > #my-rows > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%; 
+    margin: 0 auto auto 180px;
+    /* padding: 50px 0; */
+    background-color: transparent;
+    
+  }
+
+  section > #my-rows > div > div{
+    width: 50%;
+    background-color: transparent;
+
+  }
+
+  section > #my-rows > div > div > h2{
+    background-color: transparent;
+    font-size: 35px;
+    font-weight: lighter;
+    color: darkred;
+    margin-bottom: 20px;
+     
+  }
+
+  section > #my-rows > div > div > p {
+    background-color: transparent;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5; 
+    font-size: 23px;
+    margin-right: 30px;
+    width: 700px;
+    
+  }
+
+
+  section > #my-rows > div > div >img{
+    background-color:transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 480px;
+  }
+
+  section > #my-rows > div > div > i{
+    margin-left: 25px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.136);;
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0.577);
+    font-size: 20px;
+
+
+  }
+
+  /*  */
+
+  .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    border: none;
+  }
+  .card{
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    padding: 140px 0 140px 0;
+    border: none;
+    /* border-radius: 8px; */
+
+  }
+.card-image{
+  width: 100px;
+  margin-bottom: 20px;
+
+}
+ 
+.card h3{
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.card-button{
+  /* background-color: #0073b1; */
+  color:black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+  
+.card-button:hover{
+  background-color:#66666617;
+}
+
+.dropdown{
+  width: 100%;
+  padding: 20px;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  border-style:none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  font-weight: bolder;
+  box-shadow: 1px 1px 10px  1px rgba(0, 0, 0, 0.196);
+}
+
+.dropdown:hover{
+  background-color:#66666617;
+}
+
+.card1{
+  width: 300px;
+  text-align: center;
+  background-color: #fff;
+  padding: 140px 0 140px 0;
+  border: none;
+  border-radius: 8px;
+ 
+  margin-right: 250px;
+}
+.card1-image{
+  width: 100px;
+  margin-bottom: 20px;
+}
+ 
+.card1 h3{
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+
+/*  */
+.container {
+  display: flex;
+  max-width: 1420px;
+  width: 100%;
+  background: #9b3e3e18; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.content {
+  
+  flex: 0.85;
+  position: relative;
+  left: 200px;
+  padding: 50px 00px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+   /* background-color: #9b3e3e0d; */
+}
+
+.content h1 {
+  font-size: 2rem;
+  color: #9b3e3e;
+  margin-bottom: 10px;
+  /* background-color: transparent; */
+}
+
+.content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: black;
+  font-weight: lighter;
+  /* background-color: transparent; */
+}
+
+.options button {
+  display: block;
+  width: 60%;
+  margin: 0;
+  margin-bottom: 10px; 
+  padding: 10px; 
+  font-size: 22px;
+  color:black;
+  background-color:#9b3e3e1f; 
+  border: none;
+  cursor: pointer;
+  text-align:start;
+
+}
+
+.options button:hover {
+  background-color:rgba(255, 166, 0, 0.179);
+}
+
+.options {
+ width: 100%;
+}
+.image {
+  flex: 1;
+  background-color: white;
+  margin-left: 100px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: 100%;
+  margin-left: 90px;
+  background-color: white;
+}
+.options i{
+ margin-left:30px;
+}
+
+/* */
+
+.video-container {
+
+  position: relative;
+  display:flex;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.text-section {
+  flex: 1;
+  background-color: #e7f3f8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 70px;
+  height: 710px;
+}
+
+.video-frame {
+  width: 700px;
+  height: 180px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-section{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+
+.text-section h2 {
+
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  font-size: 35px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: black;
+
+}
+
+.text-section p {
+  font-size: 16px;
+  color: #666;
+  margin-left: 200px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: black;
+  line-height: 1.5;
+}
+
+
+/*  */
+section > .screen{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 8px;
+}
+
+/* foot-panel1 */
+
+footer{
+  margin-top: 15px;
+}
+
+.logo1 img{
+  max-width: 90px;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.foot-panel1{
+  background-color: #f3f2f0;
+  height: 410px;
+  display: flex;  
+  justify-content:flex-start;
+
+}
+
+.foot-panel1>ul>p{
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+ul{
+  margin-top: 25px;
+  margin-left:120px;
+}
+
+ul a{
+  display: block;
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 700;
+  text-decoration: none;
+  color: #666;
+}
+
+ul a:hover{
+  text-decoration: underline;
+  color: #076dd2;
+}
+
+/*  */
+.foot-panel2{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.foot-panel2 >.logo2{
+  display: flex;
+  margin-left: 180px;
+}
+
+.foot-panel2 >.logo2>img{
+  height: 13px;
+  margin-right: 10px;
+}
+.foot-panel2 >.logo2>span{
+  font-size: 12px;
+  color: #555;
+}
+
+.foot-panel2>.links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-right: 360px;
+}
+
+
+
+.foot-panel2>.links>a{
+  font-size: 12px;
+  color: #555;
+  font-weight: 600;
+}
+
+.foot-panel2>.links>a:hover{
+  text-decoration: underline;
+  color: #076dd2;
+}
+
+.foot-panel2>.links>p{
+  font-size: 12px;
+  color: #555;
+  font-weight: 800;
+}
+
+.foot-panel2>.links>p:hover{
+  color: #076dd2;
+}
+
+.foot-panel2>.links>p>i{
+  margin-left: 1px;
+  rotate: 90deg;
+
+}
+
+.foot-panel2>.links>p>i:hover{
+  color: #076dd2;
+}
+
+/*  */
+.foot-panel3{
+  background-color: rgba(255, 192, 203, 0.427);
+  color:black;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+  font-style: italic;
+  font-weight: bolder;
+
+}
+
+.foot-panel3>p>strong{
+  font-size: 17px;
+  font-weight: bolder;
+  animation: textcolorchange 2s infinite;
+}
+
+@keyframes textcolorchange {
+  0%{
+    color: #333;
+  }
+  50%{
+    color:darkred;
+  }
+  100%{
+    color: #28a745;
+
+  }
+}
